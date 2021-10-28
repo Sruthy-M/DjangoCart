@@ -21,7 +21,6 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-  
     path('',include('store.urls'),name='app_store'),
     path('',include('accounts.urls'),name='auth'),
     path('',include('store.api.urls'),name='api'),
