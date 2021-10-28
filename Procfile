@@ -1,3 +1,3 @@
 
 
-web: gunicorn djcart.wsgi
+web: gunicorn py-cart.wsgi
