@@ -1,1 +1,1 @@
-web: gunicorn py-cart.wsgi
+web gunicorn py-cart.wsgi
